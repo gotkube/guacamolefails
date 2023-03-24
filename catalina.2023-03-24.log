@@ -1,0 +1,83 @@
+24-Mar-2023 16:56:32.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+24-Mar-2023 16:56:32.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+24-Mar-2023 16:56:32.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+24-Mar-2023 16:56:32.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Mar-2023 16:56:32.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.4-v8-sarpi3_64
+24-Mar-2023 16:56:32.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+24-Mar-2023 16:56:32.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/Java-19.0.2
+24-Mar-2023 16:56:32.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+24-Mar-2023 16:56:32.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Mar-2023 16:56:32.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/apache-tomcat-10.1.7
+24-Mar-2023 16:56:33.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/apache-tomcat-10.1.7
+24-Mar-2023 16:56:33.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2023 16:56:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2023 16:56:33.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2023 16:56:33.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2023 16:56:33.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2023 16:56:33.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/Apache-Tomcat
+24-Mar-2023 16:56:33.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/Apache-Tomcat
+24-Mar-2023 16:56:33.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/tmp/tomcat
+24-Mar-2023 16:56:33.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2023 16:56:33.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/Apache-Tomcat/conf/logging.properties
+24-Mar-2023 16:56:33.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcommons.daemon.process.id=30287
+24-Mar-2023 16:56:33.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcommons.daemon.process.parent=30286
+24-Mar-2023 16:56:33.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcommons.daemon.version=1.3.3
+24-Mar-2023 16:56:33.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+24-Mar-2023 16:56:33.233 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [:/usr/local/lib:/usr/local/lib64:/usr/local/java/lib:/usr/local/php/lib:/usr/local/Apache-Tomcat/lib:.:/usr/local/java/lib/server:/usr/local/java/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Mar-2023 16:56:42.234 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8433"]
+24-Mar-2023 16:56:42.580 INFO [main] org.apache.coyote.http11.AbstractHttp11Protocol.configureUpgradeProtocol The ["https-jsse-nio-8080"] connector has been configured to support negotiation to [h2] via ALPN
+24-Mar-2023 16:56:42.584 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8080"]
+24-Mar-2023 16:56:45.613 INFO [main] org.apache.tomcat.util.net.AbstractEndpoint.logCertificate Connector [https-jsse-nio-8080], TLS virtual host [_default_], certificate type [RSA] configured from [/home/www/.keystore] using alias [tomcat] and with trust store [null]
+24-Mar-2023 16:56:45.726 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [16742] milliseconds
+24-Mar-2023 16:56:47.656 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2023 16:56:47.660 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+24-Mar-2023 16:56:47.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/manager.xml]
+24-Mar-2023 16:56:48.001 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/manager] in deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/manager.xml] has been ignored
+24-Mar-2023 16:56:48.063 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/data/live/www/tomcat/webapps/manager] inside the host appBase has been specified, and will be ignored
+24-Mar-2023 16:56:50.185 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.addTransformer Added class file transformer [org.apache.tomcat.jakartaee.ClassConverter[TOMCAT]] to web application [manager].
+24-Mar-2023 16:56:55.109 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2023 16:56:55.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/manager.xml] has finished in [7,959] ms
+24-Mar-2023 16:56:55.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/examples.xml]
+24-Mar-2023 16:56:55.820 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examples] in deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/examples.xml] has been ignored
+24-Mar-2023 16:56:55.825 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/data/live/www/tomcat/webapps/examples] inside the host appBase has been specified, and will be ignored
+24-Mar-2023 16:56:55.931 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.addTransformer Added class file transformer [org.apache.tomcat.jakartaee.ClassConverter[TOMCAT]] to web application [examples].
+24-Mar-2023 16:57:02.806 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2023 16:57:03.135 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 16:57:03.139 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 16:57:03.160 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@118102ee')
+24-Mar-2023 16:57:03.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/examples.xml] has finished in [7,415] ms
+24-Mar-2023 16:57:03.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/docs.xml]
+24-Mar-2023 16:57:03.240 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/docs] in deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/docs.xml] has been ignored
+24-Mar-2023 16:57:03.245 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/data/live/www/tomcat/webapps/docs] inside the host appBase has been specified, and will be ignored
+24-Mar-2023 16:57:03.288 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.addTransformer Added class file transformer [org.apache.tomcat.jakartaee.ClassConverter[TOMCAT]] to web application [docs].
+24-Mar-2023 16:57:04.046 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2023 16:57:04.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/docs.xml] has finished in [837] ms
+24-Mar-2023 16:57:04.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/host-manager.xml]
+24-Mar-2023 16:57:04.083 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/host-manager] in deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/host-manager.xml] has been ignored
+24-Mar-2023 16:57:04.088 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/data/live/www/tomcat/webapps/host-manager] inside the host appBase has been specified, and will be ignored
+24-Mar-2023 16:57:04.128 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.addTransformer Added class file transformer [org.apache.tomcat.jakartaee.ClassConverter[TOMCAT]] to web application [host-manager].
+24-Mar-2023 16:57:04.879 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2023 16:57:04.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/usr/local/etc/tomcat/Catalina/tomcathost.mydomain.vpn/host-manager.xml] has finished in [829] ms
+24-Mar-2023 16:57:04.947 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/data/live/www/tomcat/webapps/guacamole-1.5.0.war]
+24-Mar-2023 16:57:05.318 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.addTransformer Added class file transformer [org.apache.tomcat.jakartaee.ClassConverter[TOMCAT]] to web application [guacamole-1.5.0].
+24-Mar-2023 16:57:33.694 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2023 16:58:10.810 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/data/live/www/tomcat/webapps/guacamole-1.5.0.war] has finished in [65,862] ms
+24-Mar-2023 16:58:10.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/data/live/www/tomcat/webapps/ROOT]
+24-Mar-2023 16:58:10.862 INFO [main] org.apache.catalina.loader.WebappClassLoaderBase.addTransformer Added class file transformer [org.apache.tomcat.jakartaee.ClassConverter[TOMCAT]] to web application [ROOT].
+24-Mar-2023 16:58:11.527 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2023 16:58:11.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/data/live/www/tomcat/webapps/ROOT] has finished in [721] ms
+24-Mar-2023 16:58:11.565 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+24-Mar-2023 16:58:11.581 SEVERE [main] org.apache.catalina.mapper.MapperListener.findDefaultHost Unknown default host [localhost] for service [StandardService[Catalina]]. Tomcat will not be able process HTTP/1.0 requests that do not specify a host name.
+24-Mar-2023 16:58:11.584 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8433"]
+24-Mar-2023 16:58:11.718 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8080"]
+24-Mar-2023 16:58:11.752 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [86018] milliseconds
+24-Mar-2023 16:59:54.837 INFO [https-jsse-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=tomcathost.mydomain.vpn'
+24-Mar-2023 16:59:54.841 INFO [https-jsse-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+24-Mar-2023 16:59:54.928 INFO [https-jsse-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'tomcathost.mydomain.vpn'
+24-Mar-2023 17:00:33.432 INFO [https-jsse-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: restart: Reloading web application '/guacamole-1.5.0'
+24-Mar-2023 17:00:33.435 INFO [https-jsse-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/guacamole-1.5.0] has started
+24-Mar-2023 17:00:34.909 INFO [https-jsse-nio-8080-exec-6] org.apache.catalina.loader.WebappClassLoaderBase.addTransformer Added class file transformer [org.apache.tomcat.jakartaee.ClassConverter[TOMCAT]] to web application [guacamole-1.5.0].
+24-Mar-2023 17:00:48.005 INFO [https-jsse-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2023 17:01:34.002 INFO [https-jsse-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/guacamole-1.5.0] is completed
+24-Mar-2023 17:01:34.006 INFO [https-jsse-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'tomcathost.mydomain.vpn'
+====== ENTERING GUAC CLIENT =====

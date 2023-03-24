@@ -1,0 +1,4 @@
+guacd[30264]: INFO:	Guacamole proxy daemon (guacd) version 1.5.0 started
+guacd[30264]: DEBUG:	Successfully bound AF_INET socket to host 127.0.0.1, port 4822
+guacd[30264]: DEBUG:	Exiting and passing control to PID 30266
+guacd[30266]: DEBUG:	Exiting and passing control to PID 30267
